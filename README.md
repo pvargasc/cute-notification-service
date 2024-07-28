@@ -42,11 +42,11 @@ login using the following credentials:
    * **URL**: jdbc:h2:mem:testdb
    * **Username**: sa
    * **Password**: password
-2. A RabbitMQ management console is exposed in port [15672](http://localhost:15672/). You can
+2. A RabbitMQ management console is exposed on port [15672](http://localhost:15672). You can
 login using the following credentials:
    * **Username**: guest
    * **Password**: guest
-3. The React webapp is exposed in port [3000](http://localhost:8080/3000). Play around with the app:
+3. The React webapp is exposed on port [3000](http://localhost:3000). Play around with the app:
    1. Select a Category from the dropdown and write a message, then press the "Send Notification!" button.
       The notifications you just sent will show in the "Notifications" table since the notifications are
       sorted from most recent to oldest by default.
