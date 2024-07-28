@@ -14,7 +14,6 @@ persistence through an H2 database that is populated on app startup.
 ## Table of Contents
 - [How to Run](#how-to-run)
 - [How to Use](#how-to-use)
-- [How to test](#how-to-test)
 - [Considerations](#considerations)
 
 ## How to Run
