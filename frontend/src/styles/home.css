@@ -1,0 +1,17 @@
+.custom-container {
+  background-color: #f5eef8;
+}
+
+.card-custom {
+  width: 100%;
+  height: fit-content;
+
+  padding: 1.5rem;
+
+  background-color: #F8F4F4;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
