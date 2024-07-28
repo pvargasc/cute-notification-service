@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Behold!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        .content {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <h1>404 Not Found!</h1>
+    <p>Sometimes, the things we are searching for elude us not because we are unworthy, but because we are meant to find
+        something greater along the way. Trust the journey, and remember that every step, even the ones that seem lost,
+        brings you closer to where you're meant to be.</p>
+    <img th:src="@{/images/wizard.png}" alt="Wizard Image">
+</div>
+</body>
+</html>

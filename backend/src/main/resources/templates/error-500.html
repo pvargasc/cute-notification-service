@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Behold!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        .content {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <h1>500 Internal Server Error!</h1>
+    <p>Sometimes in our pursuit of success, we forget that true achievement lies in balance. Remember, the value of your
+        work is not worth the cost of breaking yourself or your relationships. Take time to breathe, reconnect, and find
+        harmony in your life.</p>
+    <img th:src="@{/images/sleeping-wizard.png}" alt="Sleeping Wizard Image">
+</div>
+</body>
+</html>

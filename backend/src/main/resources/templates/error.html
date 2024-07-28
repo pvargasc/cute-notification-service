@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Behold!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        .content {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <h1>There's Something Wrong</h1>
+    <p>When everything is falling into place despite your lack of clarity, remember that sometimes the journey unfolds
+        in ways beyond our understanding. Trust the process, even when the path seems unclear, for often it's in these
+        moments that we discover the most profound truths about ourselves and our direction.</p>
+    <img th:src="@{/images/wizard.png}" alt="Wizard Image">
+</div>
+</body>
+</html>
