@@ -42,7 +42,7 @@ login using the following credentials:
    * **URL**: jdbc:h2:mem:testdb
    * **Username**: sa
    * **Password**: password
-2. A RabbitMQ management console is exposed in port [15672](http://localhost:8080/15672). You can
+2. A RabbitMQ management console is exposed in port [15672](http://localhost:15672/). You can
 login using the following credentials:
    * **Username**: guest
    * **Password**: guest
